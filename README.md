@@ -5,6 +5,8 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Website](https://img.shields.io/badge/Live-Website-green)](https://yourusername.github.io/PhotoFocus)
 
+**Live Demo:** https://PranoyM12.github.io/PhotoFocus
+
 ## ✨ Features
 
 - **Fully Responsive** - Mobile-first design
