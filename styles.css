@@ -1,0 +1,185 @@
+/* General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #333; 
+    color: white; 
+}
+
+
+/* Header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15.8px 32px;
+    background: #000000;
+    color: #fffefe;
+    box-shadow: 0 2px 5px #00000080;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+header .logo span {
+    color: #ff9800;
+}
+.logo {
+    width: 120px; 
+    height: auto; 
+    display: inline-block;
+    cursor: pointer;
+}
+a:visited {
+    color: inherit; 
+}
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: -15px;
+}
+header nav ul li {
+    margin-left: 20px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10.7px;
+}
+
+.nav-btn:hover {
+    color: #ff7f00; 
+    border-bottom: 2px solid #ff7f00;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 150px;
+    background-size: cover;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    position: relative;
+}
+.hero h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+    text-shadow: 2px 2px 5px #000000; 
+}
+.hero p {
+    font-size: 25px;
+    margin-bottom: 27.2px;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+/* About */
+ .about-section {
+    background-color: #222;
+    padding: 48px 16px;
+    text-align: center;
+    color: white;
+}
+
+.about-content h2 {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.about-content p {
+    font-size: 19.2px;
+    margin-bottom: 24px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.view-portfolio-btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+    display: inline-block;
+}
+
+.view-portfolio-btn:hover {
+    background-color: #ff7f00;
+    transform: scale(1.05);
+}
+
+
+/* Gallery */
+.gallery-preview {
+    padding: 32px;
+    text-align: center;
+}
+.gallery-preview h2 {
+    margin-bottom: 16px;
+    font-size: 32px;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.gallery img {
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px #00000023;
+    transition: 0.3s ease-in-out;
+}
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px #00000045;
+}
+
+/* Testimonials */
+.testimonials {
+    background-color: #222;
+    padding: 40px 0;
+    text-align: center;
+    color: #f2f2f2;
+    margin-top: 50px;
+}
+.testimonials h2 {
+    font-size: 40px;
+    color: #ff6f00;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+}
+.testimonial {
+    display: inline-block;
+    background-color: #333333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 45%; 
+}
+.testimonial p {
+    font-size: 19.2px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.testimonial span {
+    display: block;
+    font-size: 17.6px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 16px;
+    background: #000000;
+    color: white;
+}
